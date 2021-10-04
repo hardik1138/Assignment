@@ -1,3 +1,4 @@
+print("Enter no of rows:")
 var n = Int (readLine()!)
 var c = 0,i=0
 while i<n{
