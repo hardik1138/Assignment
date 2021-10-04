@@ -6,4 +6,4 @@ func RightTriangle(_ no : Int)
  }
 }
 print("Enter no of rows:")
-RightTriangle(Int (readLine()!) ?? 0)
+RightTriangle(Int (readLine()!))
