@@ -20,11 +20,11 @@ func findMaxLength(_ str:String...) -> String{
   var max = 0
   var maxword = ""
   for s in str{
-    if(s.count > max)
-    {
-      max=s.count
-      maxword = s
+    guard s.count > max else{
+      continue    
     }
+    max=s.count
+    maxword = s
   }
   return maxword
 }
